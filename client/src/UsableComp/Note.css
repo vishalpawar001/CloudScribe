@@ -1,0 +1,40 @@
+.note {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 250px; /* Fixed width */
+  height: 150px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Arrange title at top and delete button at bottom */
+}
+.note-title {
+  font-size: 18px;
+  text-align: center; /* Center align the title */
+  margin-top: 10px; /* Add margin to push title to center top */
+}
+
+.note-details {
+  font-size: 14px;
+  color: #777;
+  text-align: justify; /* Justify the details */
+  overflow: hidden; /* Hide overflow of details */
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  align-self: flex-end; /* Align delete button to the bottom */
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
